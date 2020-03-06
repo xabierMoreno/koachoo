@@ -6,4 +6,5 @@ import java.util.List;
 
 public interface GoalsService {
     List<Goal> getGoals();
+    List<Goal> goalsByUser(String userId);
 }
